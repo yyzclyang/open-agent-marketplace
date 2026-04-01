@@ -1,0 +1,12 @@
+{
+  "name": "zentao",
+  "description": "禅道集成工具",
+  "version": "0.0.1",
+  "author": {
+    "name": "yyzcl yang",
+    "email": "yyzclyang@gmail.com"
+  },
+  "homepage": "https://github.com/yyzclyang/open-agent-marketplace",
+  "repository": "https://github.com/yyzclyang/open-agent-marketplace",
+  "license": "MIT"
+}
