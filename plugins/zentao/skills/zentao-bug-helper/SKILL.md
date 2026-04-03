@@ -1,4 +1,5 @@
 ---
+name: zentao-bug-helper
 description: 禅道 bug 辅助
 ---
 
@@ -27,7 +28,7 @@ ZENTAO_PRODUCT_ID=your-product-id
 1. 执行脚本获取数据：
 
 ```bash
-python3 plugins/zentao/scripts/zentao.py bug-list [limit]
+python3 plugins/zentao/skills/zentao-bug-helper/scripts/bug-helper.py bug-list [limit]
 ```
 
 2. 解析 JSON 输出，按以下格式展示：
@@ -50,7 +51,7 @@ python3 plugins/zentao/scripts/zentao.py bug-list [limit]
 1. 执行脚本获取详情：
 
 ```bash
-python3 plugins/zentao/scripts/zentao.py bug-detail <bug-id>
+python3 plugins/zentao/skills/zentao-bug-helper/scripts/bug-helper.py bug-detail <bug-id>
 ```
 
 2. 如果返回的 JSON 中包含 `_images` 字段，用 Read 工具读取每张图片进行分析。

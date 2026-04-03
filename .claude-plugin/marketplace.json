@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Agent 工具集",
-    "version": "0.0.4"
+    "version": "0.1.0"
   },
   "plugins": [
     {
@@ -25,7 +25,7 @@
       "name": "zentao",
       "source": "./plugins/zentao",
       "description": "禅道集成工具",
-      "version": "0.0.2",
+      "version": "0.1.0",
       "author": {
         "name": "yyzcl yang",
         "email": "yyzclyang@gmail.com"
