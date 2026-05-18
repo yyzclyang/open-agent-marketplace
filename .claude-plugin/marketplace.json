@@ -1,0 +1,30 @@
+{
+  "name": "open-agent-marketplace",
+  "version": "0.1.0",
+  "owner": {
+    "name": "yyzcl yang",
+    "email": "yyzclyang@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "dev-kit",
+      "source": {
+        "source": "github",
+        "repo": "yyzclyang/dev-kit-plugin"
+      },
+      "description": "基础开发包",
+      "repository": "https://github.com/yyzclyang/dev-kit-plugin",
+      "license": "MIT"
+    },
+    {
+      "name": "zentao",
+      "source": {
+        "source": "github",
+        "repo": "yyzclyang/zentao-plugin"
+      },
+      "description": "禅道集成工具",
+      "repository": "https://github.com/yyzclyang/zentao-plugin",
+      "license": "MIT"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "open-agent-marketplace",
+  "interface": {
+    "displayName": "Open Agent Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "dev-kit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/yyzclyang/dev-kit-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      }
+    },
+    {
+      "name": "zentao",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/yyzclyang/zentao-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      }
+    }
+  ]
+}
